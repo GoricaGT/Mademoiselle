@@ -1,12 +1,11 @@
 // Bodoni book font
 
 @font-face {
-  font-family: "Bodoni";
-  src: url("../../css/fonts/bodoni-book/Bodoni-Book.woff2") format("woff2"),
-    url("../../css/fonts/bodoni-book/Bodoni-Book.woff") format("woff");
+  font-family: "bodonibook";
+  src: url("../../css/fonts/bodoni/bodoni_book-webfont.woff2") format("woff2"),
+    url("../../css/fonts/bodoni/bodoni_book-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
 }
 
 // Lato font
@@ -15,5 +14,5 @@
 
 // font-family: 'Lato', sans-serif;
 
-$bodoni: "Bodoni";
+$bodoni: "bodonibook";
 $lato: "Lato", sans-serif;

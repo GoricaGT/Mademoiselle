@@ -1,0 +1,102 @@
+.blog-section {
+  padding: 50px 0 0;
+  .blog-item {
+    margin-bottom: 130px;
+    figure {
+      position: relative;
+
+      .blog-item-content {
+        position: absolute;
+        top: 164px;
+        left: 22px;
+        right: 22px;
+        background-color: $white;
+        padding: 22px 19px 57px;
+
+        .blog-item-date {
+          font-family: $bodoni;
+          font-size: 1.4rem;
+          font-style: italic;
+          font-weight: $font-weight-light;
+          letter-spacing: 1px;
+          line-height: 1.7rem;
+          display: block;
+        } // .blog-item-date end
+
+        a {
+          color: $body-color;
+          font-size: 1.6rem;
+          line-height: 2.4rem;
+        }
+      } // .blog-content end
+    } // figure end
+  } // .blog-item end
+} // .blog-section end
+
+@media (min-width: 576px) {
+  .blog-section {
+    .blog-item {
+      figure {
+        .blog-item-content {
+          top: 250px;
+
+          a {
+            font-size: 2rem;
+          }
+        } // .blog-content end
+      } // figure end
+    } // .blog-item end
+  } // .blog-section end
+}
+
+@media (min-width: 768px) {
+  .blog-section {
+    .blog-item {
+      margin-bottom: 90px;
+      figure {
+        .blog-item-content {
+          top: 167px;
+
+          a {
+            font-size: 1.6rem;
+          }
+        } // .blog-content end
+      } // figure end
+    } // .blog-item end
+  }
+}
+
+@media (min-width: 992px) {
+  .blog-section {
+    padding: 75px 0;
+    .section-title {
+      font-size: 3rem;
+      line-height: 4.5rem;
+    }
+
+    .blog-item {
+      margin-bottom: 0px;
+      figure {
+        .blog-item-content {
+          .blog-content-title {
+            font-size: 1.2rem;
+          }
+        } // .blog-content end
+      } // figure end
+    } // .blog-item end
+  }
+}
+
+@media (min-width: 1200px) {
+  .blog-section {
+    .blog-item {
+      figure {
+        .blog-item-content {
+          .blog-content-title {
+            font-size: 1.6rem;
+          }
+        } // .blog-content end
+      } // figure end
+    } // .blog-item end
+  }
+}
