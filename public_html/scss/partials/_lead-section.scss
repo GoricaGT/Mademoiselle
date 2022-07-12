@@ -13,13 +13,22 @@
     letter-spacing: 5px;
     display: inline-block;
     width: 50%;
+
+    a {
+      color: $white;
+
+      &:hover {
+        text-decoration: none;
+        color: $primary;
+      }
+    }
   }
 } // lead-section end
 
 @media (min-width: 576px) {
   .lead-section {
     .lead-section-title {
-      font-size: 3rem;
+      font-size: 3.5rem;
       line-height: 5rem;
       letter-spacing: 1rem;
     }
