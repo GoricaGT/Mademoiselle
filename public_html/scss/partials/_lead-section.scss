@@ -2,7 +2,6 @@
   padding: 140px 0;
   background-position: top center;
   background-size: cover;
-  background-position: top center;
   background-repeat: no-repeat;
 
   .lead-section-title {
@@ -37,7 +36,7 @@
 
 @media (min-width: 992px) {
   .lead-section {
-    padding: 160px 0;
+    padding: 140px 0;
     .lead-section-title {
       font-size: 4rem;
       line-height: 6.4rem;
@@ -48,6 +47,7 @@
 
 @media (min-width: 1200px) {
   .lead-section {
+    padding: 200px 0;
     .lead-section-title {
       font-size: 6rem;
       line-height: 8.4rem;

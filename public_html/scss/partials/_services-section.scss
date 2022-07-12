@@ -1,4 +1,5 @@
 .services-section {
+  padding: 50px 0;
   .service-section-item {
     figure {
       overflow: hidden;
@@ -35,6 +36,8 @@
 }
 @media (min-width: 768px) {
   .services-section {
+    padding: 0 0 50px;
+
     .service-section-item {
       .service-item-content {
         .service-item-title {

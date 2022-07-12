@@ -64,7 +64,8 @@ main {
   padding: 10px 30px;
 
   &:hover {
-    background-color: $body-color;
+    background-color: $primary;
     color: $white;
+    border: 1px solid transparent;
   }
 }
