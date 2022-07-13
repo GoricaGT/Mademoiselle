@@ -1,6 +1,8 @@
-.blog-section {
+.service-single-section {
+  padding: 50px 0 0;
+
   .service-single-item {
-    margin-bottom: 100px;
+    margin-bottom: 30px;
 
     .service-single-title {
       font-size: 2.5rem;
@@ -15,7 +17,7 @@
 }
 
 @media (min-width: 768px) {
-  .blog-section {
+  .service-single-section {
     .service-single-item {
       .service-single-text {
         font-size: 1.2rem;
@@ -26,9 +28,11 @@
 }
 
 @media (min-width: 992px) {
-  .blog-section {
+  .service-single-section {
+    padding: 170px 0 0;
+
     .service-single-item {
-      margin-bottom: 180px;
+      margin-bottom: 110px;
 
       .service-single-title {
         font-size: 3rem;
@@ -43,7 +47,7 @@
   }
 }
 @media (min-width: 1200px) {
-  .blog-section {
+  .service-single-section {
     .service-single-item {
       .service-single-title {
         font-size: 4.4rem;

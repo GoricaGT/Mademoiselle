@@ -1,6 +1,4 @@
 .blog-section {
-  padding: 75px 0 0;
-
   .blog-item-date {
     font-family: $bodoni;
     font-size: 1.4rem;
@@ -20,6 +18,7 @@
     line-height: 1.7rem;
     display: inline-block;
     margin-right: 5px;
+    margin-top: 30px;
   }
   .blog-single-item {
     margin-bottom: 57px;
@@ -65,8 +64,11 @@
 }
 @media (min-width: 992px) {
   .blog-section {
-    padding: 165px 0 0;
-
+    .blog-sigle-header {
+      .blog-item-subtitle {
+        margin-top: 90px;
+      }
+    }
     .blog-single-item {
       margin-bottom: 97px;
 

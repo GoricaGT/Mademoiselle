@@ -9541,7 +9541,7 @@ header .navbar-brand {
   }
 }
 .blog-section {
-  padding: 30px 0 0;
+  padding: 50px 0 17px;
 }
 .blog-section .blog {
   margin-bottom: 120px;
@@ -9633,9 +9633,6 @@ header .navbar-brand {
     font-size: 1.6rem;
   }
 }
-.blog-section {
-  padding: 75px 0 0;
-}
 .blog-section .blog-item-date {
   font-family: "bodonibook";
   font-size: 1.4rem;
@@ -9655,6 +9652,7 @@ header .navbar-brand {
   line-height: 1.7rem;
   display: inline-block;
   margin-right: 5px;
+  margin-top: 30px;
 }
 .blog-section .blog-single-item {
   margin-bottom: 57px;
@@ -9690,8 +9688,8 @@ header .navbar-brand {
 }
 
 @media (min-width: 992px) {
-  .blog-section {
-    padding: 165px 0 0;
+  .blog-section .blog-sigle-header .blog-item-subtitle {
+    margin-top: 90px;
   }
   .blog-section .blog-single-item {
     margin-bottom: 97px;
@@ -9759,43 +9757,49 @@ header .navbar-brand {
     line-height: 4.4rem;
   }
 }
-.blog-section .service-single-item {
-  margin-bottom: 100px;
+.service-single-section {
+  padding: 50px 0 0;
 }
-.blog-section .service-single-item .service-single-title {
+.service-single-section .service-single-item {
+  margin-bottom: 30px;
+}
+.service-single-section .service-single-item .service-single-title {
   font-size: 2.5rem;
   line-height: 3.5rem;
 }
-.blog-section .service-single-item .service-single-text {
+.service-single-section .service-single-item .service-single-text {
   font-size: 1.6rem;
   line-height: 2.3rem;
 }
 
 @media (min-width: 768px) {
-  .blog-section .service-single-item .service-single-text {
+  .service-single-section .service-single-item .service-single-text {
     font-size: 1.2rem;
     line-height: 2rem;
   }
 }
 @media (min-width: 992px) {
-  .blog-section .service-single-item {
-    margin-bottom: 180px;
+  .service-single-section {
+    padding: 170px 0 0;
   }
-  .blog-section .service-single-item .service-single-title {
+  .service-single-section .service-single-item {
+    margin-bottom: 110px;
+  }
+  .service-single-section .service-single-item .service-single-title {
     font-size: 3rem;
     line-height: 4rem;
   }
-  .blog-section .service-single-item .service-single-text {
+  .service-single-section .service-single-item .service-single-text {
     font-size: 1.6rem;
     line-height: 2.3rem;
   }
 }
 @media (min-width: 1200px) {
-  .blog-section .service-single-item .service-single-title {
+  .service-single-section .service-single-item .service-single-title {
     font-size: 4.4rem;
     line-height: 5rem;
   }
-  .blog-section .service-single-item .service-single-text {
+  .service-single-section .service-single-item .service-single-text {
     font-size: 1.8rem;
     line-height: 2.6rem;
   }
@@ -9862,6 +9866,68 @@ header .navbar-brand {
   }
   .owl-theme .owl-nav.disabled + .owl-dots {
     margin-top: -13px;
+  }
+}
+.about-page-section {
+  padding: 91px 0 0;
+}
+.about-page-section .about-page-item .about-page-title {
+  font-size: 3rem;
+  line-height: 3.5rem;
+  width: 60%;
+  margin-bottom: 50px;
+}
+.about-page-section .about-page-item .about-page-intro {
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+  margin-bottom: 60px;
+}
+.about-page-section .about-page-item .about-page-text {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+.about-page-section .blog-page-aside .search {
+  position: relative;
+}
+.about-page-section .blog-page-aside .search .search-img {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+}
+.about-page-section .blog-page-aside .search .search-input {
+  border: 1px solid #1e1e1e;
+  font-family: "bodonibook";
+  font-weight: 300;
+  font-style: italic;
+  margin-bottom: 4.3rem;
+}
+.about-page-section .blog-page-aside .search .search-input::placeholder {
+  color: #1e1e1e;
+  opacity: 1;
+}
+.about-page-section .blog-page-aside .about-blog-section {
+  padding: 0;
+}
+.about-page-section .blog-page-aside .about-blog-section .about-blog-item {
+  margin-bottom: 130px;
+}
+
+@media (min-width: 992px) {
+  .about-page-section .about-page-item .about-page-title {
+    font-size: 4.4rem;
+    line-height: 5rem;
+  }
+  .about-page-section .about-page-item .about-page-intro {
+    font-size: 2rem;
+    line-height: 2.8rem;
+    margin-bottom: 50px;
+  }
+  .about-page-section .about-page-item .about-page-text {
+    font-size: 1.8rem;
+    line-height: 2.6rem;
   }
 }
 footer {
