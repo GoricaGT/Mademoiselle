@@ -9633,6 +9633,86 @@ header .navbar-brand {
     font-size: 1.6rem;
   }
 }
+.blog-section {
+  padding: 75px 0 0;
+}
+.blog-section .blog-item-date {
+  font-family: "bodonibook";
+  font-size: 1.4rem;
+  font-style: italic;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 1.7rem;
+  display: inline-block;
+  margin-left: 5px;
+  margin-bottom: 20px;
+}
+.blog-section .blog-item-subtitle {
+  font-family: "bodonibook";
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 1.7rem;
+  display: inline-block;
+  margin-right: 5px;
+}
+.blog-section .blog-single-item {
+  margin-bottom: 57px;
+}
+.blog-section .blog-single-item .service-single-content .service-single-title {
+  font-size: 2.7rem;
+  line-height: 4rem;
+}
+
+.blog-single-content {
+  padding: 0 0 70px;
+}
+.blog-single-content .blog-single-description .blog-single-text {
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+  text-align: justify;
+}
+.blog-single-content .blog-single-description .blog-single-paragraph {
+  margin-bottom: 52px;
+  overflow: hidden;
+}
+.blog-single-content .blog-single-description .blog-single-paragraph img {
+  transition: 1s linear;
+}
+.blog-single-content .blog-single-description .blog-single-paragraph img:hover {
+  transform: scale(1.1);
+}
+.blog-single-content .blog-tags {
+  font-family: "bodonibook";
+  font-weight: lighter;
+  font-size: 1.6rem;
+  line-height: 2.7rem;
+}
+
+@media (min-width: 992px) {
+  .blog-section {
+    padding: 165px 0 0;
+  }
+  .blog-section .blog-single-item {
+    margin-bottom: 97px;
+  }
+  .blog-section .blog-single-item .service-single-content .service-single-title {
+    font-size: 4.4rem;
+    line-height: 5rem;
+  }
+  .blog-section .blog-single-item .service-single-content .service-single-text {
+    font-size: 2rem;
+    line-height: 2.8rem;
+  }
+  .blog-single-content {
+    padding: 0 0 270px;
+  }
+  .blog-single-content .blog-single-description .blog-single-text {
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+    text-align: justify;
+  }
+}
 .services-section {
   padding: 50px 0;
 }
