@@ -6,16 +6,15 @@
 
   .lead-section-title {
     font-family: $bodoni;
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: $font-weight-lighter;
     line-height: 4rem;
-    letter-spacing: 5px;
+    letter-spacing: 1.8px;
     display: inline-block;
     width: 50%;
 
     a {
       color: $white;
-
       &:hover {
         text-decoration: none;
         color: $primary;
@@ -28,8 +27,7 @@
   .lead-section {
     .lead-section-title {
       font-size: 3.5rem;
-      line-height: 5rem;
-      letter-spacing: 1rem;
+      letter-spacing: 6px;
     }
   }
 } // lead-section end

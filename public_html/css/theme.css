@@ -9444,6 +9444,7 @@ main {
   text-align: center;
   display: inline-block;
   padding: 10px 30px;
+  border-radius: 0px;
 }
 .btn:hover {
   background-color: #ecd9d9;
@@ -9498,10 +9499,10 @@ header .navbar-brand {
 }
 .lead-section .lead-section-title {
   font-family: "bodonibook";
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: lighter;
   line-height: 4rem;
-  letter-spacing: 5px;
+  letter-spacing: 1.8px;
   display: inline-block;
   width: 50%;
 }
@@ -9516,8 +9517,7 @@ header .navbar-brand {
 @media (min-width: 576px) {
   .lead-section .lead-section-title {
     font-size: 3.5rem;
-    line-height: 5rem;
-    letter-spacing: 1rem;
+    letter-spacing: 6px;
   }
 }
 @media (min-width: 992px) {
@@ -9844,6 +9844,10 @@ header .navbar-brand {
   }
 }
 @media (min-width: 992px) {
+  .about-section .section-title {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
   .about-section .about-wrapper .about-team-description {
     padding: 31px 0 0;
   }
@@ -9881,6 +9885,16 @@ header .navbar-brand {
   font-size: 1.8rem;
   line-height: 2.6rem;
   margin-bottom: 60px;
+}
+.about-page-section .about-page-item .about-page-img {
+  overflow: hidden;
+  margin-bottom: 60px;
+}
+.about-page-section .about-page-item .about-page-img img {
+  transition: 1s linear;
+}
+.about-page-section .about-page-item .about-page-img img:hover {
+  transform: scale(1.1);
 }
 .about-page-section .about-page-item .about-page-text {
   font-size: 1.6rem;
@@ -9928,6 +9942,93 @@ header .navbar-brand {
   .about-page-section .about-page-item .about-page-text {
     font-size: 1.8rem;
     line-height: 2.6rem;
+  }
+}
+.contact-section {
+  padding: 60px 0 90px;
+}
+.contact-section .contact-title {
+  font-size: 2rem;
+  font-family: "bodonibook";
+  line-height: 3.5rem;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+.contact-section .contact-form .form-group {
+  margin-bottom: 20px;
+}
+.contact-section .contact-form .form-group:last-of-type {
+  margin-bottom: 50px;
+}
+.contact-section .contact-form .form-group .form-control {
+  background-color: rgba(37, 61, 97, 0.02);
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  line-height: 50px;
+  padding: 0 7px 0 19px;
+  height: 50px !important;
+}
+.contact-section .contact-form .form-group .form-control::placeholder {
+  color: #1e1e1e;
+  opacity: 1;
+}
+.contact-section .contact-form .form-group textarea.form-control {
+  height: 150px !important;
+}
+.contact-section .contact-form .form-group .error-msg * {
+  color: #dc3545;
+  font-size: 1.3rem;
+}
+
+.contact-info {
+  padding: 63px 0 60px;
+  margin-bottom: 46px;
+}
+.contact-info p {
+  font-size: 2.4rem;
+  line-height: 2.5rem;
+}
+.contact-info p a {
+  color: #1e1e1e;
+}
+
+@media (min-width: 768px) {
+  .contact-section {
+    position: relative;
+  }
+  .contact-section .contact-form .form-group:last-of-type {
+    margin-bottom: 0px;
+  }
+  .contact-section .contact-form .form-group textarea.form-control {
+    height: 100px !important;
+  }
+  .contact-section .contact-map {
+    position: absolute;
+    top: 153px;
+    right: 0px;
+    width: 40%;
+  }
+}
+@media (min-width: 992px) {
+  .contact-section .form-group textarea.form-control {
+    height: 150px !important;
+  }
+  .contact-section .contact-map {
+    top: 60px;
+  }
+}
+@media (min-width: 1200px) {
+  .contact-section {
+    padding: 112px 0 110px;
+  }
+  .contact-section .contact-title {
+    font-size: 3rem;
+    line-height: 4.5rem;
+    letter-spacing: 5px;
+  }
+  .contact-section .contact-map {
+    top: 112px;
+    max-height: 530px;
   }
 }
 footer {

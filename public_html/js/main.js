@@ -36,4 +36,52 @@ $(document).ready(function () {
       });
     });
   }
+
+  //FORM VALIDATE
+
+  if ($(".contact-form").length > 0) {
+    $(".contact-form").validate({
+      highlight: function (element) {
+        $(element).addClass("is-invalid").removeClass("is-valid");
+      },
+      unhighlight: function (element) {
+        $(element).addClass("is-valid").removeClass("is-invalid");
+      },
+      rules: {
+        name: {
+          required: true,
+        },
+        email: {
+          required: true,
+          email: true,
+        },
+        subject: {
+          required: true,
+        },
+        message: {
+          required: true,
+        },
+      },
+      messages: {
+        name: {
+          required: " Name* field is required",
+        },
+        email: {
+          required: "Email* field is required",
+          email: "Please provide a valid email address",
+        },
+        subject: {
+          required: " Subject* field is required",
+        },
+        message: {
+          required: "Message* field is required",
+        },
+      },
+
+      errorElement: "p",
+      errorPlacement: function (error, element) {
+        error.appendTo(element.closest(".form-group").find(".error-msg"));
+      },
+    });
+  }
 });

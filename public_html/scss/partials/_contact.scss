@@ -1,0 +1,114 @@
+$contact-input-bg: rgba(37, 61, 97, 0.02);
+
+.contact-section {
+  padding: 60px 0 90px;
+
+  .contact-title {
+    font-size: 2rem;
+    font-family: $bodoni;
+    line-height: 3.5rem;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+  } // .contact-title end
+
+  .contact-form {
+    .form-group {
+      margin-bottom: 20px;
+
+      &:last-of-type {
+        margin-bottom: 50px;
+      }
+
+      .form-control {
+        background-color: $contact-input-bg;
+        font-family: $lato;
+        font-weight: $font-weight-light;
+        line-height: 50px;
+        padding: 0 7px 0 19px;
+        height: 50px !important;
+
+        &::placeholder {
+          color: $body-color;
+          opacity: 1;
+        }
+      } // .form-control
+
+      textarea.form-control {
+        height: 3 * 50px !important;
+      }
+
+      .error-msg * {
+        color: $danger;
+        font-size: 1.3rem;
+      }
+    } //  .form-group end
+  } // .contact-form end
+} // .contact-section
+
+.contact-info {
+  padding: 63px 0 60px;
+  margin-bottom: 46px;
+
+  p {
+    font-size: 2.4rem;
+    line-height: 2.5rem;
+    a {
+      color: $body-color;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .contact-section {
+    position: relative;
+
+    .contact-form {
+      .form-group {
+        &:last-of-type {
+          margin-bottom: 0px;
+        }
+
+        textarea.form-control {
+          height: 2 * 50px !important;
+        }
+      } //  .form-group end
+    }
+
+    .contact-map {
+      position: absolute;
+      top: 153px;
+      right: 0px;
+      width: 40%;
+    }
+  } // .contact-section end
+}
+
+@media (min-width: 992px) {
+  .contact-section {
+    .form-group {
+      textarea.form-control {
+        height: 3 * 50px !important;
+      }
+    } //  .form-group end
+
+    .contact-map {
+      top: 60px;
+    }
+  } // .contact-section end
+}
+@media (min-width: 1200px) {
+  .contact-section {
+    padding: 112px 0 110px;
+
+    .contact-title {
+      font-size: 3rem;
+      line-height: 4.5rem;
+      letter-spacing: 5px;
+    } // .contact-title end
+
+    .contact-map {
+      top: 112px;
+      max-height: 530px;
+    }
+  }
+}
